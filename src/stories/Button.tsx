@@ -29,7 +29,7 @@ export interface ButtonProps {
  */
 export const Button: React.FC<ButtonProps> = ({
   primary = false,
-  size = "large",
+  size = "medium",
   backgroundColor,
   label,
   ...props
